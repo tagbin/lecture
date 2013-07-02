@@ -9,3 +9,10 @@ Angreji Beat De!
 
 
 Teu Teu Teu Teeeee!
+
+Now let's do some study.......
+
+1. git add <directory name> #user . for whole directory
+2. git commit -m "Comments"
+3. git push origin master #to push commits to git repo
+
