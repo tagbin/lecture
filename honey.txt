@@ -12,7 +12,14 @@ Teu Teu Teu Teeeee!
 
 Now let's do some study.......
 
-1. git add <directory name> #user . for whole directory
-2. git commit -m "Comments"
-3. git push origin master #to push commits to git repo
+#Settings
 
+# to create an ssh key
+1. ssh-keygen -t rsa
+2. paste ur ssh key to git-settings.
+that's it..
+
+1. git add <directory name> 	# use . for whole directory
+2. git commit -m "Comments"
+3. git push origin master 	#to push commits to git repo
+4. git status 			#to check to present status of repo
