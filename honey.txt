@@ -23,3 +23,36 @@ that's it..
 2. git commit -m "Comments"
 3. git push origin master 	#to push commits to git repo
 4. git status 			#to check to present status of repo
+
+# New Branch
+> git branch <new-branch-name>
+
+# Shift to new branch
+> git checkout <new-branch-name>
+
+# If you've added some changes, stage them
+> git add <path>          # The path could be file or a directory
+
+# Commit these changes 
+> git commit -m "Commit Message Here"  				# -m stands for commit message
+
+# Push your changes
+> git push <remote> <branch>
+
+# Done!
+
+
+
+# Before pushing always pull the master branch
+git pull origin master
+
+
+Note: origin denotes a git remote where files are uploaded to....
+Issue the command
+> git remote -v
+to view git remotes in your current repository
+origin is default...
+
+e.g when pushing changes to heroku... heroku adds another remote
+in that case... pushing to heroku becomes
+> git push heroku master
